@@ -1,0 +1,53 @@
+{
+  "name": "@mnrendra/types-package",
+  "version": "0.0.0-development",
+  "description": "package.json interface extended from the official and unofficial fields.",
+  "keywords": [
+    "package",
+    "json",
+    "type",
+    "types",
+    "interface",
+    "interfaces",
+    "typescript"
+  ],
+  "private": false,
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && npx rollup -c",
+    "commit": "npx cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnrendra/types-package.git"
+  },
+  "author": {
+    "name": "Muhammad Rendra",
+    "email": "mnrendra@users.noreply.github.com",
+    "url": "https://github.com/mnrendra"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnrendra/types-package/issues"
+  },
+  "homepage": "https://github.com/mnrendra/types-package#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.3"
+  },
+  "devDependencies": {
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "clean-package": "^2.2.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.44.0",
+    "eslint-config-standard-with-typescript": "^36.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "rollup": "^3.26.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "semantic-release": "^21.0.7",
+    "typescript": "^5.1.6"
+  }
+}
