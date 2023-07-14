@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/types-package",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "package.json interface extended from the official and unofficial fields.",
   "keywords": [
     "package",
