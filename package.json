@@ -2,15 +2,6 @@
   "name": "@mnrendra/types-package",
   "version": "1.0.0",
   "description": "package.json interface extended from the official and unofficial fields.",
-  "keywords": [
-    "package",
-    "json",
-    "type",
-    "types",
-    "interface",
-    "interfaces",
-    "typescript"
-  ],
   "private": false,
   "types": "dist/index.d.ts",
   "scripts": {
@@ -49,5 +40,14 @@
     "rollup-plugin-dts": "^5.3.0",
     "semantic-release": "^21.0.7",
     "typescript": "^5.1.6"
-  }
+  },
+  "keywords": [
+    "package",
+    "json",
+    "type",
+    "types",
+    "interface",
+    "interfaces",
+    "typescript"
+  ]
 }
