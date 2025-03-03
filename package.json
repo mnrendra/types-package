@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/types-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package.json interface extended from the official and unofficial fields.",
   "private": false,
   "types": "dist/index.d.ts",
